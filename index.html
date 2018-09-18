@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <title>Static-Comp-3</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
   </head>
 
 
@@ -114,3 +114,202 @@
           </li button>
         </ul>
       </section>
+
+      <section class="main-top">
+       <!--  <button><i class="secret-button fas fa-bars"></i></i>Nav</button> -->
+        <div class="main-li-container">
+          <ul class="center-nav">
+            <li class="focus main-lis">SUMMARY</li>
+            <li class="main-lis">APPLICANTS</li>
+            <li class="main-lis">JOB BOARD</li>
+            <li class="main-lis">INTERVIEWS</li>
+            <li class="main-lis">ACTIVITY</li>
+            <li class="main-lis">BROADCAST</li>
+            <li class="main-lis">NOTIFICATIONS</li>
+          </ul>
+        </div>
+      </section>
+
+
+
+      <section class="graphs">
+       <article class="svgs" aria-label="applicant-stats">
+         <section class="single-chart" aria-label="applicant-chart">
+          <svg viewbox="0 0 36 36" class="circular-chart turquoise">
+            <path class="circle-bg"
+              d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831"
+            />
+            <path class="circle"
+              stroke-dasharray="79, 100"
+              d="M18 34
+                a 15.9155 15.9155 0 0 1 0 -31.831
+                a 15.9155 15.9155 0 0 1 0 31.831"
+            />
+            <text x="18" y="17.5" class="percentage">3,154</text>
+            <text x="18" y="23.35" class="percentage">APPLICANTS</text>
+          </svg>
+        </section>
+
+        <section class="single-chart" aria-label="applicant-chart">
+          <svg viewbox="0 0 36 36" class="circular-chart blue">
+            <path class="circle-bg"
+              d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831"
+            />
+            <path class="circle"
+              stroke-dasharray="39, 100"
+              d="M18 34
+                a 15.9155 15.9155 0 0 1 0 -31.831
+                a 15.9155 15.9155 0 0 1 0 31.831"
+            />
+            <text x="18" y="17.5" class="percentage">1,546</text>
+            <text x="18" y="23.25" class="percentage">INTERVIEWS</text>
+          </svg>
+        </section>
+
+        <section class="single-chart" aria-label="applicant-chart">
+          <svg viewbox="0 0 36 36" class="circular-chart purple">
+            <path class="circle-bg"
+              d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831"
+            />
+            <path class="circle"
+              stroke-dasharray="23, 100"
+              d="M18 2.0845
+                a 15.9155 15.9155 0 0 1 0 31.831
+                a 15.9155 15.9155 0 0 1 0 -31.831"
+            />
+            <text x="18" y="17.5" class="percentage" aria-label="all-apps">912</text>
+            <text x="18" y="23.25" class="percentage">FORWARDS</text>
+          </svg>
+          <button class="circle-five-thousand">TOTALS . out of 5,231 views</button>  
+        </section>
+        </article>
+      <section class="bargraphs">
+        <img src="images/barchart.png" class="barchart" aria-label="applicants-bar-chart">
+        <button class="applicants-day">Applicants/Day</button>
+      </section>
+    
+   
+         <!-- /will be grided -->
+        <!-- 4 elements in here -->
+        <!-- svg circle chart  goes in first grid sq-->
+        <!-- second ele.bar chart  flows in second grid square
+          automatically-->
+          <!-- it'l;l force into first grid square -->
+
+          
+            <!-- because it's 4th elemnt it'll get pushed into second column itll go bacvk and forth . -->
+      </section>
+
+
+
+      <!-- ================BOTTOM SOCIAL MEDIA ============ -->
+      <section class="bottom-half" aria-label="bottom-half">
+
+       
+        <table class="job-details">
+          <tr class="table-header">
+            <th colspan="3" class="th-job-description-left-part">Job Description<button class="table-edit">
+                  <i class="fas fa-pencil-alt"></i>
+              Edit</button></th>
+            </tr>
+            <tr>
+              <td class="table-elements">POSITION TITLE</td>
+              <td class="table-elements">Front-End-Engineer</td>
+            </tr>
+            <tr>
+              <td class="table-elements">LOCATION</td>
+              <td class="table-elements">Oakland, Ca</td>
+            </tr>
+            <tr>
+              <td class="table-elements">Employment Type</td>
+              <td class="table-elements">Full-time</td>
+            </tr>
+            <tr>
+              <td class="table-elements">EXPERIENCE</td>
+              <td class="table-elements">Mid-level</td>
+            </tr>
+             <tr>
+              <td class="table-elements">STATUS</td>
+              <td class="table-elements">Open</td>
+            </tr>
+             <tr>
+              <td class="table-elements">DESCRIPTION</td>
+              <td class ="table-elements">The Customer Service Representative is responsible for interacting with and providing quality assistance to all radical customers, responsible for keeping up-to-date on the various product shizzle; helping the bidness reduce customer service wait times while doing a backhand spring and eating a ham sandwich</td>
+            </tr>
+            <tr>
+              <td class="table-elements">HIRING LEAD</td>
+              <td class="table-elements">Tom Tizzy</td>
+            </tr>
+            <tr>
+              <td class="table-elements">APPROVED SALARY</td>
+              <td class="table-elements">$58,000</td>
+            </tr>
+        </table>
+    
+
+
+      <section class="share">
+        <button class="share-btn share-facebook">
+          <div class="fb-icon"><i class="fab fa-facebook-f"></i></div>
+          <p class="link-mssg">Post to Facebook</p>
+          <div class="btn-placeholder"></div>
+        </button>
+
+        <button class="share-btn share-twitter">
+          <div class="twittr-icon"><i class="fab fa-twitter"></i></div>
+          <p class="tweet-mssg">Tweet this job</p>
+           <div class="btn-placeholder"></div>
+        </button>
+
+        <button class="share-btn share-linkedin">
+          <div class="linkd-icon"><i class="fab fa-linkedin"></i></div>
+          <p class="linkdin-messg">Post to Linkedin</p>
+          <div class="btn-placeholder"></div>
+        </button>
+   
+
+
+ <h5>
+            <i class="fas fa-globe"></i>Link to this Job</h5>
+          <p class="info-text" aria-label="click this to copy  job to your clipboard">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+          <input type="text" class="link-input" placeholder="https://lipsum.com">
+          <button class="copy-button" aria-label="click this button to copy the this job posting">Copy</button>
+          <h5>
+            <i class="fas fa-window-maximize"></i>Use the Button Widget.</h5>
+          <p class="info-text">This widget embeds the buttons for sharing the job for submitting a resume on your website.</p>
+          <input type="text" class="link-input" placeholder=<input type="text"><script type="text/javascript"></script>
+          <button class="copy-button" aria-label="click this button to embeds this job posting to your website">Copy</button>
+          <h5>
+            <i class="fas fa-paper-plane"></i>Upload Resumes by Email</h5>
+          <p class="info-text">The button embeds the buttons for sharing the job for submitting a resume on your website.</p>
+          <input type="text" class="link-input email" placeholder="https://tomtizzy@gmail.com" aria-label="Enter your email below to upload resumes">
+        </div>
+
+
+        
+          </div>
+        </article>
+  </section>
+  </section>
+         
+    </main>
+    <
+        <!-- grid this  -->
+
+
+
+
+
+    </main>
+  </body>
+</html>
+
+
+
+
