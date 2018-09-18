@@ -782,6 +782,25 @@ h5 i{
   color: white;
 }
 
+@media only screen and (max-width: 1150px){
+   body {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .svgs {
+    min-width: 8rem;
+  }
+  .main-lis{
+    font-size: .9rem;
+  }
+   .j{
+    margin: 1rem;
+  }
+   .sidebar {
+    display:none;
+  }
+}
+
 
 
 
