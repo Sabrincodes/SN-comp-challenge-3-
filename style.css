@@ -1,0 +1,16 @@
+ *{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+body {
+display: grid;
+grid-template-columns: 14rem 1fr;
+grid-template-columns: repeat( minmax(490px, 1fr));
+
+}
