@@ -492,5 +492,143 @@ h2 {
   padding-top: -40px;
 }
 
+/*SOCIAL MEDIA SECTION///////////*/
+
+.social {
+  border-radius: 5px;
+  color: white;
+  font-size: 1rem;
+  margin-bottom: 15px;
+  padding: 15px;
+  text-align: left;
+  width: 100%;
+}
+
+.social:hover {
+  cursor: pointer;
+  filter: brightness(120%);
+  transition: 300ms ease-in-out;
+}
+
+.social i{
+  padding-right: 8rem;
+}
+
+
+.percentage {
+  fill: #666;
+  font-family: sans-serif;
+  font-size: 0.25rem;
+  text-anchor: middle;
+}
+
+.share {
+  display: flex;
+  align-items: center; 
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 3rem;
+  margin-left: 30px;
+  margin-top: -14%;
+
+}
+
+
+
+.share-btn {
+  display: flex;
+  color; blue;
+  width: 91%;
+  height: 10%;
+  align-items: center; 
+  justify-content: space-between;
+
+
+}
+
+.share-btn i {
+  padding-left: 15px;
+}
+
+.btn-placeholder {
+  padding-right: 15px;
+
+}
+
+
+.my-links-h2 {
+
+    color: #666;
+
+}
+
+
+.share-btn.share-facebook {
+  background-color: #5271BD;
+  color:white;
+  font-size: 1rem;
+}
+
+
+
+.share-btn.share-twitter {
+  background-color: #48A8E9;
+  color:white;
+  font-size: 1rem;
+}
+
+.share-btn.share-linkedin {
+background-color: #357EB7;
+color:white;
+font-size: 1rem;
+}
+
+.fb-icon {
+  padding-left: 26px;
+}
+
+.twittr-icon {
+   padding-left: 26px;
+
+}
+
+.linkd-icon {
+  padding-left: 26px;
+
+}
+
+
+.my-links {
+  width: 100%;
+
+
+}
+.right-side-navbar {
+   padding: 0 50px 20px 50px;
+}
+
+.fab.fa-linkedin {
+  background-color: #0384bf;
+  border: none;
+  color: white;
+}
+
+.twitter-link {
+  background-color: #00aaef;
+  border: none;
+  color: white;
+}
+
+.fab.fa-facebook-f {
+  background-size: 18px;
+  background-color: #5071bc;
+  border: none;
+}
+
+.categories div {
+  padding: 5px 0;
+}
+
+
 
 
