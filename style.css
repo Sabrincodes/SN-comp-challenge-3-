@@ -321,3 +321,185 @@ color: #48A2F3;
 
 }
 
+/*BARCHART/ GRAPHS///////////////////////*/
+
+.graphs {
+  background-color: #EEF2F6;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.nav-icon:hover,
+.hidden-off-categories:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+
+.barchart {
+  align-self: center;
+  display: block;
+  grid-column: 2;
+  margin: .5rem auto;
+  width: 74%;
+
+}
+
+
+.applicants-day {
+  margin-left: 36%;
+  width: 161px;
+  height: 2em;
+  border-radius: 14px;
+  color: #8A8B90;
+  margin-top: 28px;
+}
+
+.svgs {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+
+
+.single-chart {
+  justify-content: space-around ;
+  width: 50%;
+
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 150px;
+}
+
+
+.circular-chart.turquoise .circle{
+  stroke: #64BAC2;
+
+}
+.circular-chart.blue .circle {
+  stroke: #50A6F3;
+}
+.circular-chart.purple .circle {
+  stroke: #B188B6;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  animation: progress 1s ease-out forwards;
+  fill: none;
+  stroke-linecap: round;
+  stroke-width: 2.8;
+}
+
+
+.circle-five-thousand {
+  width: 160px;
+  margin-left: -94%;
+  height: 2em;
+  border-radius: 14px;
+  color: #8A8B90;
+  margin-top: 28px;
+}
+
+/*BARCHART/ GRAPHS///////////////////////*/
+
+.graphs {
+  background-color: #EEF2F6;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+
+.nav-icon:hover,
+.hidden-off-categories:hover {
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+
+.barchart {
+  align-self: center;
+  display: block;
+  grid-column: 2;
+  margin: .5rem auto;
+  width: 74%;
+
+}
+
+
+.applicants-day {
+  margin-left: 36%;
+  width: 161px;
+  height: 2em;
+  border-radius: 14px;
+  color: #8A8B90;
+  margin-top: 28px;
+}
+
+.svgs {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+
+
+.single-chart {
+  justify-content: space-around ;
+  width: 50%;
+
+}
+
+.circular-chart {
+  display: block;
+  margin: 10px auto;
+  max-width: 80%;
+  max-height: 150px;
+}
+
+
+.circular-chart.turquoise .circle{
+  stroke: #64BAC2;
+
+}
+.circular-chart.blue .circle {
+  stroke: #50A6F3;
+}
+.circular-chart.purple .circle {
+  stroke: #B188B6;
+}
+
+.circle-bg {
+  fill: none;
+  stroke: #eee;
+  stroke-width: 3.8;
+}
+
+.circle {
+  animation: progress 1s ease-out forwards;
+  fill: none;
+  stroke-linecap: round;
+  stroke-width: 2.8;
+}
+
+
+.circle-five-thousand {
+  width: 160px;
+  margin-left: -94%;
+  height: 2em;
+  border-radius: 14px;
+  color: #8A8B90;
+  margin-top: 28px;
+}
+
+
+
