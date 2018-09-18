@@ -4,8 +4,6 @@
   padding: 0;
 }
 
-
-
 body {
 display: grid;
 grid-template-columns: 14rem 1fr;
@@ -25,6 +23,7 @@ grid-template-columns: repeat( minmax(490px, 1fr));
   text-align: center;
 }
 
+
 h5 {
   color: #5A667C;
    padding-bottom: 15px;
@@ -36,8 +35,9 @@ h5 {
   cursor: pointer;
   max-width: 12rem;
   padding: 40px;
- 
 }
+
+
 .user-profile-name {
   color: #9FA9BA;
   font-size: 1.5em;
@@ -80,7 +80,7 @@ hr {
   color: #fff;
 }
 
-.side-main-nav h5 {
+.side-main-nav h5, {
   margin-left: 5px;
 }
 
@@ -89,12 +89,12 @@ hr {
 
 }
 
-.side-main-nav nav i, .admin nav i  {
+.side-main-nav nav i, .admin nav i, {
   margin-left: 5px;
 }
 
-.categories nav i{
-  margin-left: 5px;
+.categories nav i {
+  margin-left:; 5px
 }
 
 
@@ -108,31 +108,31 @@ hr {
 
 
 h5 {
-  margin-left: 5px;
+  margin-left 5px;
 }
 
 .categories h5 {
-  margin-left: 5px;
+  margin-left 5px;
   padding-top: 3px;
 }
 
 
+
 .yellow-checkbox   {
   color: #F9D649;
-
 }
 
 .blue-checkbox {
   color: #54ADF8;
-
 }
+
 
 .red-checkbox {
   color: #D73663;
 }
 
 .green-checkbox {
-  color: #4AA689;
+  color:#4AA689;
 }
 
 .side-bar {
@@ -141,12 +141,14 @@ h5 {
 
 }
 
-.sidebar-links{
+
+.sidebar-links {
   display: grid;
   grid-template-columns: 18rem;
 }
 
-/* HEADER TOP MID SECTION */
+
+/* HEADER TOP MID SECTION *//*//////////////*/
 
 .main-nav {
  display: none;
@@ -161,15 +163,14 @@ h5 {
 }
 
 .hamburger {
-  height: 65px;
+  height:65px;
   grid-column: 1;
-  display: block;
+  display:block;
 
 }
 
-
 .fa-caret-left {
-color: #48A2F3;
+color:#48A2F3;
 }
 
 .expand {
@@ -179,23 +180,21 @@ color: #48A2F3;
 
 
 .form-section {
-  display: flex;
+  display:flex;
   justify-content: space-between;
-  grid-column: 2;
-  width: 100%;
+  grid-column:2;
+  width:100%;
 }
 
-
-
 .search-input {
- width: 100%;
- height: 100%;
- background-image: url('https://www.iconsdb.com/icons/preview/color/757575/search-12-xxl.png');
- background-repeat: no-repeat;
- background-size: 2rem;
- background-position: left;
- font-size: 1.5rem;
- padding-left: 45px;
+  width: 100%;
+  height: 100%;
+  background-image: url('https://www.iconsdb.com/icons/preview/color/757575/search-12-xxl.png');
+  background-repeat: no-repeat;
+  background-size: 2rem;
+  background-position: left;
+  font-size: 1.5rem;
+  padding-left: 45px;
   background-position: 40px;
   font-size: 1.5rem;
   padding-left: 88px;
@@ -204,8 +203,6 @@ color: #48A2F3;
 
 .top-nav-section {
   width: 100%;
-
-
 }
 
 
@@ -214,11 +211,9 @@ color: #48A2F3;
   font-size: 1rem;
   margin-top: 8px;
   color: #8A8B90;
-
-
 }
 
-.preview-post{
+.preview-post {
   color: #16a4fa;
 }
 
@@ -230,7 +225,7 @@ color: #48A2F3;
   padding-left: 45px;
 }
 
-.candidate-header{
+.candidate-header {
   box-sizing: border-box;
   margin: 0;
   padding-top: 2px;
@@ -242,12 +237,12 @@ color: #48A2F3;
   font-size: 1.5rem;
 
 }
-
 /*TOP RIGHT BUTTONS*/
 
+
 .bookmark,
-.edit,
-.trash
+.edit
+.trash,
  {
   border-radius: 60px;
   color: #7c7b80;
@@ -258,27 +253,31 @@ color: #48A2F3;
   display:flex;
   justify-content: flex-end;
   display: flex;
-    justify-content: flex-end;
+  justify-content: flex-end;
 
 }
 
 .recycle-btns li {
-  display:flex;
   display: flex;
   justify-content: space-between;
   margin-right: 3rem;
-}
 
+}
 
 .expand:hover,
 .bookmark:hover,
-.edit:hover,
-.trash:hover {
+.edit:hover {
+.trash:hover,
 
   background-color: #16a4fa;
   color: #fcfafb;
   cursor: pointer;
   transition: 300ms ease-in-out;
+}
+
+.expand {
+  border-radius: 20px;
+  padding: 5px 10px;
 }
 
 .fa-circle {
@@ -293,12 +292,12 @@ color: #48A2F3;
 }
 
 .center-nav {
-    align-self: flex-end;
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 2px;
-    margin-top: 27px;
-    color:#A1A4AD;
+  align-self: flex-end;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2px;
+  margin-top: 27px;
+  color:#A1A4AD;
 
 }
 
@@ -368,7 +367,6 @@ color: #48A2F3;
 }
 
 
-
 .single-chart {
   justify-content: space-around ;
   width: 50%;
@@ -416,8 +414,6 @@ color: #48A2F3;
   color: #8A8B90;
   margin-top: 28px;
 }
-
-
 /*///////////BOTTOM HALF TABLE//////////////////*/
 .bottom-half {
   background-color: #EEF2F6;
@@ -668,6 +664,8 @@ h5 i{
 }
 
 
+
+
 .linkedin-link {
   background-color: #0384bf;
   border: none;
@@ -782,6 +780,8 @@ h5 i{
   color: white;
 }
 
+/*MEDIA QUERIES*/
+
 @media only screen and (max-width: 1150px){
    body {
     display: grid;
@@ -800,7 +800,3 @@ h5 i{
     display:none;
   }
 }
-
-
-
-
