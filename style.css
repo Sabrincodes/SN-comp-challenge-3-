@@ -6,11 +6,142 @@
 
 
 
-
-
 body {
 display: grid;
 grid-template-columns: 14rem 1fr;
 grid-template-columns: repeat( minmax(490px, 1fr));
 
+}
+
+/*SIDEBAR*/
+
+.user-profile-pic {
+
+  border-bottom: 1px solid #2e394a;
+  cursor: pointer;
+  font-size: 0.6rem;
+  margin-top: 1px;
+  padding-top: -5px;
+  text-align: center;
+}
+
+h5 {
+  color: #5A667C;
+   padding-bottom: 15px;
+}
+
+
+.round-profile-picture {
+  border-radius: 100px;
+  cursor: pointer;
+  max-width: 12rem;
+  padding: 40px;
+ 
+}
+.user-profile-name {
+  color: #9FA9BA;
+  font-size: 1.5em;
+  padding-bottom: 15px;
+}
+
+
+hr {
+  background-color: #333A4A;
+}
+
+
+.side-main-nav, .admin {
+  border-bottom: 1px solid #2e394a;
+  padding: 10px;
+  height: 250px;
+}
+
+
+.side-hover {
+  display: grid;
+  grid-template-columns: 25% 75%;
+  color:#8D96A7;
+  margin: 4px;
+}
+
+.side-hover:hover{
+  color: #fff;
+}
+
+.side-hover i {
+  grid-column: 1;
+}
+
+.side-hover a {
+  grid-column: 2;
+}
+
+.side-hover a:hover {
+  color: #fff;
+}
+
+.side-main-nav h5 {
+  margin-left: 5px;
+}
+
+.admin h5 {
+  margin-left;
+
+}
+
+.side-main-nav nav i, .admin nav i  {
+  margin-left: 5px;
+}
+
+.categories nav i{
+  margin-left: 5px;
+}
+
+
+.side-main-nav a, .admin a {
+  text-decoration: none;
+  font-size: 0.9em;
+  margin-left: 5px;
+  margin-bottom: 20px;
+  color:#8D96A7;
+}
+
+
+h5 {
+  margin-left: 5px;
+}
+
+.categories h5 {
+  margin-left: 5px;
+  padding-top: 3px;
+}
+
+
+.yellow-checkbox   {
+  color: #F9D649;
+
+}
+
+.blue-checkbox {
+  color: #54ADF8;
+
+}
+
+.red-checkbox {
+  color: #D73663;
+}
+
+.green-checkbox {
+  color: #4AA689;
+}
+
+.side-bar {
+  background-color: #374050;
+  grid-column: span 1;
+
+}
+
+.sidebar-links{
+  display: grid;
+  grid-template-columns: 18rem;
 }
