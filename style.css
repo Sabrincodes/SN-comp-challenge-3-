@@ -1,5 +1,7 @@
- *{
+ * {
+  
   box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
@@ -367,9 +369,15 @@ input::placeholder{
   grid-column: 2;
   margin: .5rem auto;
   width: 74%;
-
 }
 
+.circle-graphs-pic {
+  align-self: center;
+  display: block;
+  grid-column: 1;
+  margin: .5rem auto;
+  width: 105%;
+}
 
 .applicants-day {
   margin-left: 36%;
@@ -433,6 +441,11 @@ input::placeholder{
   border-radius: 14px;
   color: #8A8B90;
   margin-top: 28px;
+}
+
+.totals {
+  width: 1rem;
+
 }
 
 
@@ -500,6 +513,52 @@ h2 {
 }
 
 
+.dividers {
+  align-self: start;
+  display: grid;
+  grid-template-columns: 1fr 2rem 1fr;
+  margin-bottom: 2rem;
+}
+
+.dividers i:hover {
+  color: #16a4fa;
+  cursor: pointer;
+  transition: 300ms ease-in-out;
+}
+
+.fa-chevron-circle-up {
+  color: #b9b8be;
+  font-size: 1rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  font-size: 1rem;
+  width: 90%;
+}
+
+/*hr {
+  border: none;
+  border-top: 1px solid gray;
+  overflow: visible;
+  text-align: center;
+  height: 5px;
+  margin: 0 5%;
+}
+
+hr:after {
+
+  content: "\f139";
+  font-family: FontAwesome;
+  color: gray;
+  background: #EEF2F6;
+  padding: 0 10px;
+  position: relative;
+  top: -13px;
+
+}*/
+
 
 
 /*SOCIAL MEDIA SECTION///////////*/
@@ -537,6 +596,7 @@ h2 {
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
+  margin: 0 -5px;
 }
 
 
@@ -553,6 +613,7 @@ h2 {
   height: 10%;
   align-items: center; 
   justify-content: space-between;
+  margin: 0 2px;
 
 
 }
@@ -879,5 +940,16 @@ h5 i{
 
 }
 
+@media only screen and (max-width:550 px) {
 
+
+.circle-graphs-pic {
+    align-self: center;
+    display: block;
+    grid-column: 1;
+    margin: .5rem auto;
+    width: 105%;
+    margin-bottom: 85px;
+}
+}
 
