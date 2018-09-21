@@ -5,4 +5,5 @@ The static comp challenge is a series of three challenges to keep you working th
 
 
 
-<img width="1404" alt="screen shot 2018-09-19 at 10 06 54 am" src="https://user-images.githubusercontent.com/40807175/45766022-d16f9d00-bbf3-11e8-8c90-28c90a4861cc.png">
+<img width="1354" alt="screen shot 2018-09-20 at 9 29 58 pm" src="https://user-images.githubusercontent.com/40807175/45858818-6968a600-bd1c-11e8-9114-b7a6669060bb.png">
+
